@@ -1,0 +1,164 @@
+#map {
+	height: 275px;
+}
+
+.footer {
+	padding: 35px 0 30px 0;
+	background-color: $blue;
+	background-image: linear-gradient(to bottom, #0181aa, #91cbf1);
+}
+.footer__wrapper {
+	@extend .container;
+}
+.footer__logo {
+	float: left;
+	text-decoration: none;
+	display: block;
+}
+.footer__box {
+	float: right;
+}
+.footer__phone {
+	margin: 20px 0 5px 0;
+	font-size: 32px;
+	font-family: $helvet-tin;
+	color: #fff;
+	span {
+		display: block;
+		letter-spacing: 1px;
+		line-height: 1.2;
+	}
+}
+.footer__callback {
+	text-align: right;
+	a {
+		display: inline-block;
+		vertical-align: top;
+		padding: 8px 20px 10px 20px;
+		font-size: 16px;
+		line-height: 1;
+		background-color: $orange;
+		color: #fff;
+		background-image: linear-gradient(to right bottom, #ff8207, #ff5800);
+		border-radius: 2px;
+		&:hover, &:active, &:focus {
+			background-color: lighten($orange, 20%);
+			background-image: linear-gradient(to right bottom, #ff5800,  #ff8207);
+		}
+	}
+}
+.footer__copy {
+	margin: 0 273px 30px 375px;
+	padding: 25px 0 0 0;
+	p {
+		margin: 0;
+		padding: 0 0 15px 0;
+		font-size: 14px;
+		line-height: 1.1;
+		color: #fff;
+	}
+}
+.footer__nav {
+	background-color: #12759f;
+}
+.footer__nav-wrapper {
+	@extend .container;
+	@extend .clearfix;
+}
+.footer__nav-menu {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		display: inline-block;
+		vertical-align: top;
+		a {
+			display: block;
+			padding: 10px 18px;
+			color: #fff;
+			font-size: 14px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: color .5s ease;
+			&:hover, &:active, &:focus {
+				color: $orange;
+			}
+		}
+	}
+	li:first-child {
+		a {
+			padding-left: 0;
+		}
+	}
+}
+.footer__nav-payment {
+	float: right;
+
+}
+.footer__nav-payment-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 28px;
+	margin: 6px 0 6px 5px;
+	background-image: url(../img/sprites.png);
+
+}
+.mastercard {
+	background-position: -10px -353px;
+}
+.maestro {
+	background-position: -58px -353px;
+}
+.visaelectron {
+	background-position: -105px -353px;
+}
+.visa {
+	background-position: -151px -353px;
+}
+
+.callback {
+	max-width: 320px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 2px;
+	input {
+		display: block;
+		width: 98%;
+		height: 30px;
+		margin: 0 0 20px 0;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		line-height: 30px;
+		text-indent: 10px;
+	}
+}
+.callback__title {
+	h3 {
+		margin: 0 0 20px 0;
+		font-size: 30px;
+		color: $blue;
+	}
+}
+.callback__button {
+	text-align: right;
+	button {
+		display: inline-block;
+		vertical-align: top;
+		border: none;
+		outline: none;
+		padding: 8px 20px 10px 20px;
+		font-size: 16px;
+		line-height: 1;
+		background-color: $orange;
+		color: #fff;
+		background-image: linear-gradient(to right bottom, #ff8207, #ff5800);
+		border-radius: 2px;
+		&:hover, &:active, &:focus {
+			background-color: lighten($orange, 20%);
+			background-image: linear-gradient(to right bottom, #ff5800,  #ff8207);
+		}
+	}
+}

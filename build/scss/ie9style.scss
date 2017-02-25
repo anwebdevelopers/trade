@@ -1,0 +1,46 @@
+$orange: #f3732d;
+$blue: #1887ad;
+.main-header__img-box-item-1,
+.main-header__img-box-item-2,
+.main-header__img-box-item-3 div {
+	background: transparentize($orange, .2);
+}
+.basket,.filter {
+	background-color: transparentize($blue, .2);
+}
+.filter__type,
+.filter__substance,
+.filter__header {
+	label {
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 22px;
+			height: 100%;
+			background-color: #fff;
+			border-radius: 2px;
+		}
+	}
+}
+.equipment__sort label {
+	&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 22px;
+			height: 32px;
+			background-color: #fff;
+			border-radius: 2px;
+			border-top: 1px solid #ccc;
+			border-right: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+		}
+}
+@media only screen and (max-width : 768px) {
+	.basket {
+		background: none;
+	}
+}

@@ -1,0 +1,64 @@
+.icon-phone, .icon-search, .icon-search-white, .icon-advantages-1, .icon-advantages-2, .icon-advantages-3, .icon-advantages-4, .icon-advantages-5, .icon-busket, .icon-key{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-phone{
+	background-position: -158.9906005859375px -9.9769287109375px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-search{
+	background-position: -63.0020751953125px -14.983673095703125px ;
+	width: 23px;
+	height: 29px;
+}
+
+.icon-search-white{
+	background-position: -61.978759765625px -49.980865478515625px ;
+	width: 19px;
+	height: 20px;
+}
+
+.icon-advantages-1{
+	background-position: -9.9769287109375px -136.965087890625px ;
+	width: 166px;
+	height: 107px;
+}
+
+.icon-advantages-2{
+	background-position: -0.99884033203125px -238.98007202148438px ;
+	width: 86px;
+	height: 110px;
+}
+
+.icon-advantages-3{
+	background-position: -82.9783935546875px -247.95892333984375px ;
+	width: 144px;
+	height: 85px;
+}
+
+.icon-advantages-4{
+	background-position: -114.99212646484375px -62.97540283203125px ;
+	width: 64px;
+	height: 63px;
+}
+
+.icon-advantages-5{
+	background-position: -21.99212646484375px -60.983673095703125px ;
+	width: 54px;
+	height: 62px;
+}
+
+.icon-busket{
+	background-position: 0 0;
+	width: 50px;
+	height: 52px;
+}
+
+.icon-key{
+	background-position: -112.9853515625px -16.963226318359375px ;
+	width: 19px;
+	height: 21px;
+}
+

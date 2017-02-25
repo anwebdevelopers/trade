@@ -1,0 +1,105 @@
+@import "bourbon";
+@import "components/vars.scss";
+@import "html/libs/owl.carousel/dist/assets/owl.carousel.min";
+
+@font-face {
+    font-family: 'HelveticaNeueCyrThin';
+    src: url('../fonts/HelveticaNeueCyrThin.eot');
+    src: url('../fonts/HelveticaNeueCyrThin.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyrThin.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyrThin.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyrThin.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueCyrThin.svg#HelveticaNeueCyrThin') format('svg');
+}
+@font-face {
+    font-family: 'HelveticaNeueCyrRoman';
+    src: url('../fonts/HelveticaNeueCyrRoman.eot');
+    src: url('../fonts/HelveticaNeueCyrRoman.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyrRoman.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyrRoman.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyrRoman.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueCyrRoman.svg#HelveticaNeueCyrRoman') format('svg');
+}
+@font-face {
+    font-family: 'avenircyr';
+    src: url('../fonts/avenircyr.eot');
+    src: url('../fonts/avenircyr.eot') format('embedded-opentype'),
+         url('../fonts/avenircyr.woff2') format('woff2'),
+         url('../fonts/avenircyr.woff') format('woff'),
+         url('../fonts/avenircyr.ttf') format('truetype'),
+         url('../fonts/avenircyr.svg#avenircyr') format('svg');
+}
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.5;
+	font-family: 'avenircyr', sans-serif;
+	color: #111;
+	background-color: #fff;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+a {
+	outline: none !important;
+}
+
+
+//Custom Styles Here
+@import "components/header.scss";
+@import "components/header-nav.scss";
+@import "components/aside.scss";
+@import "components/main-home.scss";
+@import "components/footer.scss";
+@import "components/equipment.scss";
+
+@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+@import "components/media.scss";
+
+//Load Libs SASS
+@import "html/libs/animate/animate.sass";
+@import "components/jquery.fancybox.scss";
+
+//@import "html/libs/superfish/dist/css/superfish";
+//@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+@import "html/libs/magnific-popup/dist/magnific-popup";
